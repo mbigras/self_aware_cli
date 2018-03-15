@@ -1,0 +1,18 @@
+- name: default
+  script: |
+    echo hello world!
+- name: foo
+  script: |
+    echo foo hello world!
+- name: bar
+  script: |
+    echo bar hello world!
+- name: baz
+  script: |
+    <%= app %>
+    <%= app %> foo
+    <%= app %> bar
+    echo baz hello world!
+- name: fail
+  script: |
+    ls idontexist
