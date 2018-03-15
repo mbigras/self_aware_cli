@@ -26,10 +26,11 @@ ls: idontexist: No such file or directory
 
 ## History
 
-At work, I use Jira, [go-jira](https://github.com/Netflix-Skunkworks/go-jira) keeps me productive.
+At work, I use Jira, go-jira keeps me productive.
 Go-jira's configuration file is a template that renders to a YAML file that contains self aware shell scripts.
 This feature lets me extend it to meet the needs of my team.
 
 ## Links
 
 * http://www.stuartellis.name/articles/erb/
+* https://github.com/Netflix-Skunkworks/go-jira
